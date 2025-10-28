@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { Send } from '../send/send';
-import { Receive } from '../receive/receive';
+import { Sender } from '../sender/sender';
+import { Receiver } from '../receiver/receiver';
 
 @Component({
   selector: 'app-home',
-  imports: [Send, Receive],
+  imports: [Sender, Receiver],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

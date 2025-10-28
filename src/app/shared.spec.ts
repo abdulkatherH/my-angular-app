@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { Notification } from './notification';
+import { Shared } from './shared';
 
-describe('Notification', () => {
-  let service: Notification;
+describe('Shared', () => {
+  let service: Shared;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(Notification);
+    service = TestBed.inject(Shared);
   });
 
   it('should be created', () => {
